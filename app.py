@@ -16,7 +16,8 @@ st.write(
 )
 
 # --- Comunicação com a API ---
-API_URL = "http://localhost:5000/recommendation"
+# em app.py
+API_URL = "https://api-recomendacao-clima.onrender.com/recommendation"
 
 def get_data_from_api():
     """Busca dados da nossa API Flask."""
